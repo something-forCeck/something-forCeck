@@ -13,6 +13,6 @@ jobs:
         with:
           asana-secret: ${{ secrets.ASANA_SECRET }}
           blocked-projects: |
-            1201078529841280
+            1201066538589747
       - name: Get status
         run: echo "Status is ${{ steps.postAttachment.outputs.status }}"
