@@ -8,11 +8,10 @@ jobs:
     name: Post an attachment
     steps:
       - name: Post an attachment
-        uses: Asana/comment-on-task-github-action@v1.0
+        uses: Asana/create-app-attachment-github-action@v1.0
         id: postAttachment
         with:
           asana-secret: ${{ secrets.ASANA_SECRET }}
-          comment-text: "{{PR_NAME}} was {{PR_STATE}}, link - {{PR_URL}}"
           blocked-projects: |
             1201078529841280
       - name: Get status
