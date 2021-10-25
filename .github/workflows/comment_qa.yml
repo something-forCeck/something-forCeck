@@ -1,6 +1,6 @@
 on:
   pull_request_review:
-    types: [submitted]
+    types: [submitted, edited, dismissed]
 
 jobs:
   create-comment-in-asana-task-job:
