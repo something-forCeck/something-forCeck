@@ -1,6 +1,6 @@
 on:
   pull_request:
-    types: [open, closed]
+    types: [opened, closed, reopened]
 
 jobs:
   create-comment-in-asana-task-job:
