@@ -8,7 +8,7 @@ jobs:
     name: Post an attachment
     steps:
       - name: Post an attachment
-        uses: asadreev/create-app-attachment-github-action@latest
+        uses: asadreev/create-app-attachment-github-action@Latest
         id: postAttachment
         with:
           asana-secret: ${{ secrets.ASANA_SECRET }}
