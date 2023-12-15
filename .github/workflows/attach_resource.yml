@@ -1,6 +1,6 @@
 on:
   pull_request:
-    types: [open, closed]
+    types: [open, closed, reopened]
 
 jobs:
   create-asana-attachment-job:
